@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" id="layout-styles-anchor" href="./style.css" />
+        <title>WebRTC Test</title>
+        <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="./script.js"></script>
+    </head>
+    <!-- TIP: add dark-mode class to enable dark mode -->
+    <body class="page-loading dark-mode">
+        <div id="root">
+            <h1>Demo WebRTC page</h1>
+            <div id="main-content">
+                <div class="button-content">
+                    <button id="submit-image">Submit Image</button>
+                </div>
+                
+                <div class="video-background">
+                    <video id="localVideo" autoplay></video>
+                    <canvas id="streamCanvas"></canvas>
+                    <div id="image-content"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

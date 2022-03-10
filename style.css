@@ -1,0 +1,51 @@
+#root {
+  padding: 30px 50px;
+}
+
+#main-content {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.button-content {
+  width: 30%;
+  text-align: center;
+  position: relative;
+}
+
+#submit-image {
+  padding: 20px 40px;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.video-background {
+  position: relative;
+  width: 70%;
+}
+
+#localVideo {
+  display: none;
+  width: 100%;
+}
+
+#image-content {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  right: 100px;
+  bottom: 70px;
+  z-index: 999;
+}
+
+img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+}
